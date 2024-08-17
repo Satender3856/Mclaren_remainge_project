@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meDigitally crafted charset="UTF-8">
+    <meDigitally crafted name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="icon" href="./media/nav_logo/icon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>McLaren</title>
+    
+</head>
+<body>
+
+    <h1 class="counter">0</h1>
+    <div class="overlay">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <div class="cursor01">
+        
+    </div>
+
+    <header>
+        <span class="year">2018-2024</span>
+        <a href="/" class="logo"><img src="./media/nav_logo/logo.png" alt=""></a>
+        <a href="#" class="menu" onclick="toggleMenu();"></a>
+    </header>
+
+    <div class="banner">
+        <ul class="nav">
+            <li><a href="#">SuperCars</a></li>
+            <li><a href="#">GT</a></li>
+            <li><a href="#">Ultimate</a></li>
+            <li><a href="#">SolusGt</a></li>
+            <li><a href="#">Legacy</a></li>
+        </ul>
+        <div class="bg-video-list">
+            <video class="bg-video mclaren-1 active" 
+            src="./media/videos/mclaren-1.mp4" autoplay loop muted></video>
+            <video class="bg-video mclaren-2" 
+            src="./media/videos/mclaren-2.mp4" autoplay loop muted></video>
+            <video class="bg-video mclaren-3" 
+            src="./media/videos/mclaren-3.mp4" autoplay loop muted></video>
+            <video class="bg-video mclaren-4" 
+            src="./media/videos/mclaren-4.mp4" autoplay loop muted></video>
+            <video class="bg-video mclaren-5" 
+            src="./media/videos/mclaren-5.mp4" autoplay loop muted></video>
+        </div>
+
+        <div class="content">
+            <h1>McLAREN</h1>
+            <h3 class="model mclaren-1 active">765LT SPIDER</h3>
+            <h3 class="model mclaren-2" style="color: #92ff00">ARTURA</h3>
+            <h3 class="model mclaren-3" style="color: #ff0015">7505</h3>
+            <h3 class="model mclaren-4" style="color: #ff2e00">765LT</h3>
+            <h3 class="model mclaren-5" style="color: #bbc0dd">7505 SPIDER</h3>
+            <p>
+                Super-light engineering. Extreme power. Race-honed agility. We pour every drop of our expertise into our cars to give you the most thrilling driving experience imaginable.
+
+            </p>
+            <a href="#">Enquire</a>
+        </div>
+        
+        <div class="screen">
+            <div class="shadow"></div>
+            <div>
+                <span style="--i: 0">
+                    <video class="trailer mclaren-1 screen-video active"
+                     src="./media/videos/mclaren-1.mp4" autoplay loop muted></video>
+                    <video class="trailer mclaren-2 screen-video"
+                     src="./media/videos/mclaren-2.mp4" autoplay loop muted></video>
+                    <video class="trailer mclaren-3 screen-video"
+                     src="./media/videos/mclaren-3.mp4.mp4" autoplay loop muted></video>
+                    <video class="trailer mclaren-4 screen-video"
+                     src="./media/videos/mclaren-4.mp4" autoplay loop muted></video>
+                    <video class="trailer mclaren-5 screen-video"
+                     src="./media/videos/mclaren-5.mp4" autoplay loop muted></video>
+                </span>
+                <span style="--i: 1">
+                    <video class="screen-video" src="./media/videos/trailer-1.mp4"
+                    autoplay loop muted                    
+                    ></video>
+                </span>
+                <span style="--i: 2">
+                    <video class="screen-video" src="./media/videos/trailer-2.mp4"
+                    autoplay loop muted                    
+                    ></video>
+                </span>
+                <span style="--i: 3">
+                    <video class="screen-video" src="./media/videos/trailer-3.mp4"
+                    autoplay loop muted                    
+                    ></video>
+                </span>
+            </div>
+        </div>      
+
+        <div class="gallery">
+            <div class="carousel">
+                <a class="carousel-item" href="#" onclick="changeVideo('mclaren-1');">
+                    <img src="./media/img/mclaren-1.jpg" alt="">
+                    <h4>765LT SPIDER</h4>
+                </a>
+                <a class="carousel-item" href="#" onclick="changeVideo('mclaren-2');">
+                    <img src="./media/img/mclaren-2.jpg" alt="">
+                    <h4 style="color: #92ff00">ARTURA</h4>
+                </a>
+                <a class="carousel-item" href="#" onclick="changeVideo('mclaren-3');">
+                    <img src="./media/img/mclaren-3.jpeg" alt="">
+                    <h4 style="color: #ff0015">7505</h4>
+                </a>
+                <a class="carousel-item" href="#" onclick="changeVideo('mclaren-4');">
+                    <img src="./media/img/mclaren-4.jpeg" alt="">
+                    <h4 style="color: #ff2e00">765LT</h4>
+                </a>
+                <a class="carousel-item" href="#" onclick="changeVideo('mclaren-5');">
+                    <img src="./media/img/mclaren-5.jpeg" alt="">
+                    <h4 style="color: #bbc0dd">765LT SPIDER</h4>
+                </a>
+              </div>
+        </div>
+
+    </div>
+
+    <div class="newdiv">
+              
+    </div>
+    
+    <div class="main">
+        <div class="page01">
+            <div class="elem">
+                <img src="./media/img/e1.jpg" height="250%" width="30%"
+                    alt="">
+                <div class="text-div">
+                    <h1>Experience</h1>
+                    <h1>Experience</h1>
+                </div>
+                <img src="./media/img/e2.jpg" height="250%" width="30%"
+                    alt="">
+            </div>
+            <div class="elem1">
+                <img src="./media/img/s1.png" height="250%" width="30%"
+                    alt="">
+                <div class="text-div">
+                    <h1>Speed</h1>
+                    <h1>Speed</h1>
+                </div>
+                <img src="./media/img/s2.jpg"height="250%" width="30%"
+                    alt="">
+            </div>
+            <div class="elem2">
+                <img src="./media/img/i1.jpg" height="250%" width="30%"
+                    alt="">
+                <div class="text-div">
+                    <h1>Innovation</h1>
+                    <h1>Innovation</h1>
+                </div>
+                <img src="./media/img/i2.jpg" height="250%" width="30%"
+                    alt="">
+            </div>
+        </div>            
+    </div>
+
+    <div class="page02">
+        <div class="content-page02">
+            <div class="rotate-div">
+                <div id="row-div-1" class="row-div">
+                    <div class="img-div">
+                        <img src="./media/img/mclaren-1.jpg" alt="">
+                    </div>
+                    <div class="img-div">
+                        <img src="./media/img/mclaren-2.jpg" alt="">
+                    </div>
+                    <div class="img-div">
+                        <img src="./media/img/mclaren-4.jpeg" alt="">
+                    </div>
+                    <div class="img-div">
+                        <img src="./media/img/mclaren-3.jpeg" alt="">
+                    </div>
+                </div>
+                <div id="row-div-2" class="row-div">
+                    <div class="img-div">
+                        <img src="./media/mclaren/3.jpg" alt="">
+                    </div>
+                    <div class="img-div">
+                        <img src="./media/img/mclaren-1.jpg" alt="">
+                    </div>
+                    <div class="img-div">
+                        <img src="./media/img/mclaren-3.jpeg" alt="">
+                    </div>
+                    <div class="img-div">
+                        <img src="./media/img/mclaren-4.jpeg" alt="">
+                    </div>
+                </div>
+                <div id="row-div-3" class="row-div">
+                    <div class="img-div">
+                        <img src="./media/mclaren/2.jpg" alt="">
+                    </div>
+                    <div class="img-div">
+                        <img src="./media/img/mclaren-1.jpg" alt="">
+                    </div>
+                    <div class="img-div">
+                        <img src="./media/img/mclaren-3.jpeg" alt="">
+                    </div>
+                    <div class="img-div">
+                        <img src="./media/img/mclaren-4.jpeg" alt="">
+                    </div>
+                </div>                    
+                <div id="row-div-4" class="row-div">
+                    <div class="img-div">
+                        <img src="./media/mclaren/1.jpg" alt="">
+                    </div>
+                    <div class="img-div">
+                        <img src="./media/mclaren/8.jpg" alt="">
+                    </div>
+                    <div class="img-div">
+                        <img src="./media/mclaren/5.jpg" alt="">
+                    </div>
+                    <div class="img-div">
+                        <img src="./media/img/mclaren-5.jpeg" alt="">
+                    </div>
+                </div>
+                <div id="row-div-5" class="row-div">
+                    <div class="img-div">
+                        <img src="./media/img/mclaren-5.jpeg" alt="">
+                    </div>
+                    <div class="img-div">
+                        <img src="./media/img/mclaren-2.jpg" alt="">
+                    </div>
+                    <div class="img-div">
+                        <img src="./media/img/mclaren-4.jpeg" alt="">
+                    </div>
+                    <div class="img-div">
+                        <img src="./media/img/mclaren-1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="overlay-div">
+                <h1>McLaren</h1>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="page03">
+        <div class="rounded-div-wrapper">
+            <div class="rounded-div"></div>
+        </div>
+        
+        <div class="two">
+            <div class="text-area">
+                Introducing McLaren <br> with Love and <br>innovation.
+
+            </div>
+            <div class="text-area-hover">
+                Introducing McLaren <br> with Love and <br>innovation.
+
+            </div>
+            <div class="two-item">
+                <img src="./media/img/josue-soto-sjnf-EDIg6U-unsplash.jpg" alt="">
+                  <div class="two-item01">
+                    <h2>Meet Mclaren</h2>
+                    <h3>From our family to yours</h3>
+                    <button>DISCOVER</button>
+                    <button class="button2">CONFIGURE</button>
+                  </div>              
+            </div>
+            
+        </div>
+    </div>
+    
+ <!-- between this is use for space between page03 and page04 -->
+    <div class="between">
+
+    </div>
+<!-- between this is use for space between  page03 and page04-->
+
+
+<div class="page04">
+    <h2><span class="highlight">MCLAREN</span> racing awards</h2>
+    <div class="box">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/r-t-brucemclaren-tim-marrs-1641237518.jpeg?resize=2048:*" alt="">
+        <h3>Belgian Grand Prix</h3>
+        <h4>1968</h4>
+    </div>
+    <div class="box">
+        <img src="https://cdn-1.motorsport.com/images/amp/6xEDEKm0/s6/formula-1-monaco-gp-1988-ayrto-2.jpg" alt="">
+        <h3>Japanese Grand Prix</h3>
+        <h4>1988</h4>
+    </div>
+    <div class="box">
+        <img src="https://www.a-speakers.com/wp-content/uploads/Dq0bem1X0AE3ocr-e1670927994635.jpg" alt="">
+        <h3>Australian Grand Prix</h3>
+        <h4>1998</h4>
+    </div>
+    <div class="box">
+        <img src="data:image/jpeg;base64,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" alt="">
+        <h3>Brazilian Grand Prix</h3>
+        <h4>2008</h4>
+    </div>
+    <div class="box">
+        <img src="https://www.fia.com/sites/default/files/news/main_image/00121030_139_0.jpg" alt="">
+        <h3>Italian Grand Prix</h3>
+        <h4>2021</h4>
+    </div>
+</div>  
+
+
+    <div class="wrapper">
+        <div class="container-scollx">
+            <div class="svg-container">
+                <svg viewBox="0 0 900 40" fill="none" xmlns="http://www.w3.org/2000/svg" id="responsive-svg">
+                    <path d="M9.89998 6C9.43671 8.28224 7.41896 10 5 10C2.23858 10 0 7.76142 0 5C0 2.23858 2.23858 0 5 0C7.41896 0 9.43671 1.71776 9.89998 4H218.1C218.563 1.71776 220.581 0 223 0C225.419 0 227.437 1.71776 227.9 4H445.1C445.563 1.71776 447.581 0 450 0C452.419 0 454.437 1.71776 454.9 4H672.1C672.563 1.71776 674.581 0 677 0C679.419 0 681.437 1.71776 681.9 4H890.1C890.563 1.71776 892.581 0 895 0C897.761 0 900 2.23858 900 5C900 7.76142 897.761 10 895 10C892.581 10 890.563 8.28224 890.1 6H681.9C681.437 8.28224 679.419 10 677 10C674.581 10 672.563 8.28224 672.1 6H454.9C454.437 8.28224 452.419 10 450 10C447.581 10 445.563 8.28224 445.1 6H227.9C227.437 8.28224 225.419 10 223 10C220.581 10 218.563 8.28224 218.1 6H9.89998Z" fill="#D9D9D9"/>
+                    <mask id="mask0_0_1" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0">
+                      <path d="M9.89998 6C9.43671 8.28224 7.41896 10 5 10C2.23858 10 0 7.76142 0 5C0 2.23858 2.23858 0 5 0C7.41896 0 9.43671 1.71776 9.89998 4H218.1C218.563 1.71776 220.581 0 223 0C225.419 0 227.437 1.71776 227.9 4H445.1C445.563 1.71776 447.581 0 450 0C452.419 0 454.437 1.71776 454.9 4H672.1C672.563 1.71776 674.581 0 677 0C679.419 0 681.437 1.71776 681.9 4H890.1C890.563 1.71776 892.581 0 895 0C897.761 0 900 2.23858 900 5C900 7.76142 897.761 10 895 10C892.581 10 890.563 8.28224 890.1 6H681.9C681.437 8.28224 679.419 10 677 10C674.581 10 672.563 8.28224 672.1 6H454.9C454.437 8.28224 452.419 10 450 10C447.581 10 445.563 8.28224 445.1 6H227.9C227.437 8.28224 225.419 10 223 10C220.581 10 218.563 8.28224 218.1 6H9.89998Z" fill="#D9D9D9"/>
+                    </mask>
+                    <g mask="url(#mask0_0_1)">
+                      <rect class="mask" y="-49" height="99" fill="orange"/>
+                    </g>
+                    <text x="5" y="30" font-size="10" fill="white">1963</text>
+                    <text x="223" y="30" font-size="10" fill="white">1968</text>
+                    <text x="450" y="30" font-size="10" fill="white">1992</text>
+                    <text x="677" y="30" font-size="10" fill="white">1995</text>
+                    <text x="870" y="30" font-size="10" fill="white">2010</text>
+                  </svg>
+            </div>   
+            <section>
+                <span id="year">1963</span>
+                <h1>The Founding of <span class="highlight">McLaren</span></h1>
+                <div class="col" id="hori">
+                    <p>In 1963, New Zealand-born race car driver Bruce McLaren founded the McLaren Racing Team. The team made its debut in the Formula One World Championship at the 1966 Monaco Grand Prix.</p>
+                    <p>This marked the beginning of McLaren's journey in the world of motorsports, laying the foundation for a brand synonymous with innovation and racing excellence.</p>
+                </div>
+            </section>
+            
+            <section>
+                <span id="year">1968</span>
+                <h1 class="anim">First Formula One Grand Prix <span class="highlight">Victory</span></h1>
+                <div class="col anim" id="hori">
+                    <p>McLaren secured its first Formula One Grand Prix victory at the 1968 Belgian Grand Prix. Driven by Bruce McLaren himself, the M7A car powered by a Ford Cosworth DFV engine crossed the finish line first, establishing McLaren as a formidable competitor in Formula One.</p>
+                </div>
+            </section>
+            <section>
+                <span id="year">1992</span>
+                <h1 class="anim">Introduction of the McLaren F1 <span class="highlight">Supercar</span></h1>
+                <div class="col anim" id="hori">
+                    <p>In 1992, McLaren unveiled the McLaren F1, a revolutionary supercar that set new benchmarks in automotive design and performance.</p>
+                    <p>With its carbon-fiber monocoque chassis, central driving position, and a BMW-sourced V12 engine, the F1 became the fastest production car of its time, achieving a top speed of 240.1 mph (386.4 km/h). The McLaren F1 remains an iconic symbol of engineering prowess and innovation.</p>
+                </div>
+            </section>
+            <section>
+                <span id="year">1995</span>
+                <h1 class="anim">Partnership with <span class="highlight">Mercedes-Benz</span></h1>
+                <div class="col anim" id="hori">
+                    <p>In 1995, McLaren entered into a significant partnership with Mercedes-Benz, which led to the formation of the McLaren Mercedes Formula One team.</p>
+                    <p>This collaboration resulted in a period of success, including winning the Drivers' Championship in 1998 and 1999 with Mika Häkkinen and the Constructors' Championship in 1998. The partnership also led to the development of the Mercedes-Benz SLR McLaren, a high-performance grand tourer.</p>
+                </div>
+            </section>
+            <section>
+                <span id="year">2010</span>
+                <h1 class="anim">Launch of the McLaren <span class="highlight">Automotive Division</span></h1>
+                <div class="col anim" id="hori">
+                    <p>In 2010, McLaren expanded its operations beyond motorsports by launching McLaren Automotive, a division dedicated to producing high-performance road cars.</p>
+                    <p>The first model, the McLaren MP4-12C, was introduced in 2011, featuring cutting-edge technology and design elements derived from McLaren's Formula One expertise. This marked McLaren's foray into the commercial automotive market, establishing it as a leading manufacturer of luxury sports cars.</p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    
+
+    <div class="footer-div">
+        <footer class="row">
+            <div class="col">
+              <img src="./media/nav_logo/logo.png" class="logo01" />
+              <p>
+                The prices set out above are final at the date of issue. All prices are subject to change as determined by McLaren Automotive, Inc.. Always refer to the latest pricing guide.
+              </p>
+            </div>
+            <div class="col">
+              <h3>
+                Office
+                <div class="underline"><span></span></div>
+              </h3>
+              <p>ITPL</p>
+              <p>Whitefield, Banglore</p>
+              <p>Karnataka, Pin 234324, India</p>
+              <p class="email-id">experiences@mclaren.com</p>
+              <h4>+91 312433223</h4>
+            </div>
+            <div class="col">
+              <h3>
+                Links
+                <div class="underline"><span></span></div>
+              </h3>
+              <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Features</a></li>
+                <li><a href="">Contract us</a></li>
+              </ul>
+            </div>
+            <div class="col">
+              <h3>
+                Newsletter
+                <div class="underline"><span></span></div>
+              </h3>
+              <form>
+                <i class="fa fa-envelope"></i>
+      
+                <input type="text" placeholder="Enter your email id" required />
+                <button type="submit" id="arrow"><i class="fa fa-arrow-right"></i></button>
+              </form>
+              <div class="social-icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-whatsapp"></i>
+                <i class="fa fa-pinterest"></i>
+              </div>
+            </div>
+            <hr/>
+            <p class="copyright">Debugging Overflowed 2024 - All Right Reserved</p>
+          </footer>
+    </div>
+    
+
+   
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.5/dist/lenis.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="loader.js"></script>
+    <script src="style.js"></script>
+    <script src="horizontal.js"></script>
+    
+    <script type="text/javascript">
+    
+        $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+
+    </script>
+</body>
+</html>
